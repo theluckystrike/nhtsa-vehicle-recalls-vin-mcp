@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theluckystrike/nhtsa-vehicle-recalls-vin-mcp",
+  "title": "NHTSA Vehicle Recalls, VIN Decoder & Safety Ratings MCP",
+  "description": "Decode VINs, check NHTSA vehicle recalls, consumer safety complaints, and 5-Star NCAP crash ratings.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/theluckystrike/nhtsa-vehicle-recalls-vin-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nhtsa-vehicle-recalls-vin-mcp.lipmichal.workers.dev/mcp"
+    }
+  ]
+}
